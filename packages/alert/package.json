@@ -1,0 +1,22 @@
+{
+  "name": "@loco-ui/alert",
+  "version": "0.1.0",
+  "description": "Alert component for Loco-UI",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "clsx": "^2.0.0"
+  }
+}
